@@ -1,0 +1,101 @@
+
+
+/* CSS FOOTER */
+
+.f-containersatu{
+    border-top: 0.5px solid #dddddd;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.f-containerdua div{
+    background-color: #d23822;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    color: white;
+    font-weight: lighter;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.footer-body{
+    font-weight: bolder;
+}
+
+.f-header{
+    margin: 50px;
+}
+
+.f-header a{
+    color: black;
+}
+
+.f-header.satu{
+    flex: 3;
+}
+.f-header.dua{
+    flex: 1;
+}
+.f-header.tiga{
+    flex: 1;
+}
+.f-header.empat{
+    flex: 1;
+}
+
+.instagram:hover{
+    color: red;
+}
+
+.clickable:hover{
+    color: #76323f;
+}
+
+@media (min-width:600px){
+    .f-containersatu{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* CSS HEADER */
+
+.loginlogout{
+    color: black !important;
+}
+
+.loginlogout:hover{
+    color: brown !important;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px;
+    height: 35px;
+}
+
+.search-container div{
+    margin-left: 82%;
+}
+
+.search-container .a{
+    text-decoration: none;
+}
+
+
+
+@media (max-width:600px){
+    .loginlogout{
+       margin-left: 38px;
+    }
+    .search-container div{
+        margin-left: 20px;
+    }
+    .cart{
+        margin-left: 40px;
+    }
+}
